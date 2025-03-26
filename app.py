@@ -14,6 +14,44 @@ st.set_page_config(
     page_icon="📘"
 )
 
+# Custom CSS for enhanced UI
+# st.markdown("""
+# <style>
+#     .stApp {
+#         background-color: #f5f5f5;
+#     }
+#     .user-message {
+#         background-color: #e3f2fd;
+#         border-radius: 15px;
+#         padding: 12px;
+#         margin: 8px 0;
+#         max-width: 80%;
+#         float: right;
+#     }
+#     .bot-message {
+#         background-color: #ffffff;
+#         border-radius: 15px;
+#         padding: 12px;
+#         margin: 8px 0;
+#         max-width: 80%;
+#         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+#     }
+#     .source-card {
+#         border-left: 3px solid #4CAF50;
+#         padding: 10px;
+#         margin: 10px 0;
+#         background-color: #f8f9fa;
+#     }
+#     .stSpinner > div {
+#         color: #4CAF50;
+#     }
+#     .sidebar .sidebar-content {
+#         background-color: #ffffff;
+#         box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+#     }
+# </style>
+# """, unsafe_allow_html=True)
+
 # Initialize session state
 if "vector_store" not in st.session_state:
     st.session_state.vector_store = None
