@@ -59,7 +59,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # App header
-st.title("📘 SIMATIC CN4100 Knowledge Analyzer")
+st.title("📘 SIMATIC CN4100 Generator")
 st.caption("AI-powered document understanding with source citations")
 
 # Sidebar configuration
