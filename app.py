@@ -9,7 +9,7 @@ from langchain_community.llms import HuggingFaceHub
 
 # Streamlit configuration (must be first)
 st.set_page_config(
-    page_title="SmartDoc Analyzer",
+    page_title="PCS neo CN Analyzer",
     layout="wide",
     page_icon="📘"
 )
