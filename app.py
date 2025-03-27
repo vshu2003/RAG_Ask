@@ -187,7 +187,7 @@ if st.session_state.vector_store:
 
                     # Initialize LLM
                     llm = HuggingFaceHub(
-                        repo_id="mistralai/Mistral-7B-Instruct-v0.1",
+                        repo_id="mistralai/Mistral-7B-Instruct-v0.3",
                         huggingfacehub_api_token=hf_token,
                         model_kwargs={
                             "temperature": 0.3,
