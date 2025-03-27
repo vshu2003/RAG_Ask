@@ -187,7 +187,7 @@ if st.session_state.vector_store:
 
                     # Initialize LLM
                     llm = HuggingFaceHub(
-                        repo_id="meta-llama/Llama-3.1-8B-Instruct",
+                        repo_id="deepseek-ai/DeepSeek-V3-0324",
                         huggingfacehub_api_token=hf_token,
                         model_kwargs={
                             "temperature": 0.3,
